@@ -1,0 +1,75 @@
+body {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form {
+    margin: auto;
+    width: 250px;
+}
+
+legend {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.45px;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.45px;
+    
+}
+
+label {
+    cursor: pointer;
+}
+
+input {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+/* input:checked {
+    background-color: #D9930F;
+} */
+
+input:checked {
+    background-color: #D9930F; /* Змініть цей колір на той, який вам потрібно */
+    color: #ffffff; /* Змініть колір тексту */
+}
+
+button {
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.submit {
+    background-color: #D9930F;
+    border: none;
+    border-radius: 4px;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.reset {
+    background-color: white;
+    border: none;
+}
+
+span {
+    margin-left: 5px;
+}
+
+
+  
